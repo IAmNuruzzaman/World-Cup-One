@@ -1,0 +1,438 @@
+/* common style  */
+
+
+body {
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+}
+
+
+
+
+
+
+/* head section  */
+
+.head {
+    margin: 30px;
+    background-color: black;
+    height: 100%;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.head-one {
+    width: 50%;
+    padding: 10px 10px 80px 60px;
+
+}
+
+.head-one h1 {
+    font-size: 70px;
+
+}
+
+.head-two {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.btn {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/* match time  */
+
+
+.up-comming {
+    margin: 30px;
+    display: flex;
+}
+
+.up-comming-match {
+
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.up-comming-match a {
+    text-decoration: none;
+}
+
+.option {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    /* width: 80%; */
+
+    position: relative;
+    top: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+.message {
+    margin-left: 30px;
+}
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+
+.blog {
+    border: 1px solid gray;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+/* footer  */
+
+
+.page-end {
+    /* height: 400px; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.page-end hr {
+    margin: 60px 0px;
+}
+
+.footer-option a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .head {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: visible;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .head-one {
+        width: 100%;
+        text-align: center;
+        margin-right: 30px;
+        padding: 0px;
+
+    }
+
+    .head-two {
+        display: flex;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .head-one h1 {
+        font-size: 60px ;
+        text-align: center;
+       
+    }
+    .head-one p {
+        font-size: 25px;
+        white-space: nowrap; 
+        width: 450px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+    }
+    .btn {
+        background-color: red;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+
+
+
+    .up-comming-match {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        row-gap: 20px;
+        
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+        /* justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 20px;
+        position: relative;
+        top: 100px;
+        display: flex;
+        
+        border-radius: 20px;
+        width: 0px; */
+    }
+
+
+    
+
+    .option {
+        border: 2px solid black;
+        margin-right: 0px;
+        margin-top: 0px;
+
+        width: 100%;
+    }
+
+    .up-comming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+
+   
+
+    .up-comming-match a {
+        margin-right: 50px;
+        width: 100%;
+        
+    }
+
+    
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+
+    .blog {
+
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 0px;
+
+    }
+
+    .blog h3 {
+        font-size: 13px;
+        margin-right: 0px;
+    }
+
+
+    
+        
+
+
+
+
+
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:360px) {
+    .head {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: visible;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .head-one {
+        width: 100%;
+        text-align: center;
+        margin-right: 30px;
+        padding: 0px;
+
+    }
+
+    .head-two {
+        display: flex;
+        justify-content: center;
+        height: 50%;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .head-one h1 {
+        font-size: 20px;
+        text-align: center;
+       
+    }
+    .head-one p {
+        font-size: 10px;
+        white-space: nowrap; 
+        width: 250px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+    }
+    .btn {
+        background-color: red;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+
+
+
+    .up-comming-match {
+        display: flex;
+        justify-content: center;
+        /* Centers the items horizontally */
+        align-items: center;
+        /* Centers the items vertically */
+        margin: 0 auto;
+        /* Centers the container itself */
+        width: 90%;
+        /* Ensure it takes full width */
+        margin-bottom: 20px;
+        /* Adjusted for spacing */
+        position: relative;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .up-comming-match a {
+        margin-right: 60px;
+        
+
+    }
+
+    
+
+    .option {
+        border: 2px solid black;
+        margin-right: 0px;
+        margin-top: 0px;
+
+        width: 100%;
+    }
+
+    .up-comming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+
+   
+
+    .up-comming-match a {
+        margin-right: 50px;
+    }
+
+    
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 250px;
+    }
+
+    .blog {
+
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 0px;
+
+    }
+
+    .blog h3 {
+        font-size: 13px;
+        margin-right: 0px;
+    }
+
+
+    .footer-option {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+
+
+
+
+
+
+    /* .footer-option a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #B9B9B9;
+    font-size: 16px;
+} */
+
+}
