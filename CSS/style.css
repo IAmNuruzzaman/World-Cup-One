@@ -58,16 +58,25 @@ body {
 
 .up-comming {
     margin: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 1fr;
 }
+
+.piass-bhai {
+    background-color: black;
+    padding: 10px;
+}
+
 
 .up-comming-match {
 
-    width: 250px;
-    height: 100%;
-    background-color: black;
+    width: 150px;
+    /* height: 100%; */
+
     margin-right: 30px;
     border-radius: 20px;
+
+
 }
 
 .up-comming-match a {
@@ -75,14 +84,14 @@ body {
 }
 
 .option {
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
     padding: 10px;
     color: rgb(8, 8, 8);
     /* width: 80%; */
 
-    position: relative;
-    top: 20px;
+    /* position: relative;
+    top: 20px; */
     background-color: white;
     border-radius: 10px;
 
@@ -149,8 +158,10 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         overflow: visible;
-        width: 100%;
+        width: 90%;
         margin-bottom: 30px;
+        margin: auto;
+        padding: 10px;
     }
 
     .head-one {
@@ -171,20 +182,22 @@ body {
     }
 
     .head-one h1 {
-        font-size: 60px ;
+        font-size: 60px;
         text-align: center;
-       
+
     }
+
     .head-one p {
         font-size: 25px;
-        white-space: nowrap; 
-        width: 450px; 
+        white-space: nowrap;
+        width: 450px;
         overflow: hidden;
-        text-overflow: ellipsis; 
+        text-overflow: ellipsis;
         margin: 0 auto;
         margin-bottom: 50px;
-        
+
     }
+
     .btn {
         background-color: red;
         padding: 5px 10px;
@@ -192,19 +205,20 @@ body {
         font-size: 12px;
     }
 
-
-
+    .piass-bhai {
+        background-color: transparent;
+    }
 
     .up-comming-match {
         display: flex;
         flex-direction: column;
-        background-color: white;
+
         row-gap: 20px;
-        
+
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        
+
         /* justify-content: center;
         align-items: center;
         margin: 0 auto;
@@ -219,7 +233,7 @@ body {
     }
 
 
-    
+
 
     .option {
         border: 2px solid black;
@@ -235,15 +249,15 @@ body {
         margin-left: 30px;
     }
 
-   
 
-    .up-comming-match a {
+
+    a {
         margin-right: 50px;
         width: 100%;
-        
+
     }
 
-    
+
 
 
     .blogs {
@@ -266,8 +280,6 @@ body {
     }
 
 
-    
-        
 
 
 
@@ -275,7 +287,9 @@ body {
 
 
 
-  
+
+
+
 
 }
 
@@ -325,18 +339,20 @@ body {
     .head-one h1 {
         font-size: 20px;
         text-align: center;
-       
+
     }
+
     .head-one p {
         font-size: 10px;
-        white-space: nowrap; 
-        width: 250px; 
+        white-space: nowrap;
+        width: 250px;
         overflow: hidden;
-        text-overflow: ellipsis; 
+        text-overflow: ellipsis;
         margin: 0 auto;
         margin-bottom: 50px;
-        
+
     }
+
     .btn {
         background-color: red;
         padding: 5px 10px;
@@ -368,11 +384,11 @@ body {
 
     .up-comming-match a {
         margin-right: 60px;
-        
+
 
     }
 
-    
+
 
     .option {
         border: 2px solid black;
@@ -388,13 +404,13 @@ body {
         margin-left: 30px;
     }
 
-   
+
 
     .up-comming-match a {
         margin-right: 50px;
     }
 
-    
+
 
 
     .blogs {
